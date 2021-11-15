@@ -1,1 +1,1 @@
-"# Trains" 
+Trains for heroics, will inculde a GUI for "riding the train" and that gui will subtrack currency from the player for a specified amount based on what the kingdom leader has set with a limit of some amount. Day tickets might be avaliable as well, day tickets meaning you can perchase a ticket and you get unlimited travels for that day (ie untill the time expires)
