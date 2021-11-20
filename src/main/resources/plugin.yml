@@ -1,0 +1,6 @@
+name: Trains
+version: "1.0"
+api-version: "1.16"
+authors: [ KarmaLover ]
+main: me.trains.Main
+description: TODO add fucking trains description
