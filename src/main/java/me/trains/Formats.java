@@ -9,6 +9,6 @@ public class Formats {
     }
 
     public static String error() {
-        return ChatColor.translateAlternateColorCodes('&', "&d&l Trains &7&l- &c");
+        return ChatColor.translateAlternateColorCodes('&', "&d&lTrains &7&l- &c");
     }
 }

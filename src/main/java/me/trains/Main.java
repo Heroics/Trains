@@ -2,8 +2,6 @@ package me.trains;
 
 import co.aikar.commands.PaperCommandManager;
 import me.trains.commands.Trains;
-import org.bukkit.Bukkit;
-import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Objects;
@@ -24,7 +22,7 @@ public class Main extends JavaPlugin {
     }
 
     private void loadModules() {
-        // TODO: add this you fucking idiot if you don't im gonna be mad
+        new Trains();
     }
 
     public static Main getInstance() {
