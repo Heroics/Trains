@@ -2,6 +2,7 @@ package me.trains;
 
 import co.aikar.commands.PaperCommandManager;
 import me.trains.commands.Trains;
+import me.trains.events.PlayerInteract;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Objects;
@@ -23,6 +24,7 @@ public class Main extends JavaPlugin {
 
     private void loadModules() {
         new Trains();
+        new PlayerInteract();
     }
 
     public static Main getInstance() {
